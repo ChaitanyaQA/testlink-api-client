@@ -1,0 +1,44 @@
+{
+  "name": "testlink-api-client",
+  "version": "0.0.3",
+  "description": "TestLink API client brings you a pure javascript node-module for TestLink management tool integration",
+  "dependencies": {
+    "JSONPath": "*",
+    "http": "*",
+    "simpleconvert-xml": "*",
+    "xmldom": "*",
+    "xpath": "*"
+  },
+  "keywords": [
+    "testlink","test","testlink-api"
+  ],
+  "author": "Imaginea Technologies Inc.",
+  "contributors": [
+    {
+      "name": "Varun Menon",
+      "email": "varun.m@imaginea.com"
+    },
+    {
+      "name": "Brahmananda Kar",
+      "email": "brahmananda.kar@imaginea.com"
+    },
+    {
+      "name": "Chaitanya Prasad Pragada",
+      "email": "chaitanya.pragada@imaginea.com"
+    }
+  ],
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/ChaitanyaQA/testlink-api-client"
+  },
+  "bugs": {
+    "url": "https://github.com/ChaitanyaQA/testlink-api-client/issues",
+    "email": "opensource@imaginea.com"
+  },
+  "licenses": [
+    {
+      "type": "Apache V2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+}
