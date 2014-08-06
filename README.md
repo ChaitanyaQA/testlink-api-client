@@ -11,8 +11,24 @@ Node based environments
 
 npm install testlink-api-client
 
+Examples
+var TestLinkAPI = require('./testlinkapi'),
+	devKey="5f5fa0d9eba136f28e45d1f8a17cbedd",
+	RPCUrl="http://localhost:80/testlink/lib/api/xmlrpc/v1/xmlrpc.php",
+	testlink=new TestLinkAPI(devKey,RPCUrl),
+	testProjectId=12,
+	testsuiteid=13;
+
+
+testlink.getProjects(function(projects){
+console.log(projects);
+}); 
+
+testlink.getTestCasesForTestSuite({testProjectId:testProjectId,testsuiteid:testsuiteid}, function(result){
+	result.map(function(testcases){
+	console.log(testcases);
+	}); 
+}); 
+
 Execution:
-H:\...\lib>node testlinkclient.js
-
-Refer the sample examples defined in testlinkclient.js
-
+H:\...\testlink-api-client\lib>node testlinkclient.js
