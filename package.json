@@ -1,6 +1,6 @@
 {
   "name": "testlink-api-client",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "TestLink API client brings you a pure javascript node-module for TestLink management tool integration",
   "dependencies": {
     "JSONPath": "*",
@@ -25,6 +25,17 @@
     {
       "name": "Chaitanya Prasad Pragada",
       "email": "chaitanya.pragada@imaginea.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Varun Menon"
+    },
+    {
+      "name": "Brahmananda Kar"
+    },
+    {
+      "name": "Chaitanya Prasad Pragada"
     }
   ],
     "repository": {
