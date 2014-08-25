@@ -14,7 +14,7 @@ npm install testlink-api-client
 
 Examples:
 
-var TestLinkAPI = require('testlinkapi'),
+var TestLinkAPI = require('testlink-api-client'),
 
 	devKey="5f5fa0d9eba136f28e45d1f8a17cbedd",
 	
